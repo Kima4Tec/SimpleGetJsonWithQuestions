@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Hvad står C# for?",
+    "options": [
+      "C Sharp",
+      "C Hash",
+      "C Octothorpe"
+    ],
+    "answer": 0,
+    "explanation": "C# (udtales 'C Sharp') er et programmeringssprog udviklet af Microsoft som en del af .NET-platformen."
+  },
+  {
+    "question": "Hvordan definerer man en variabel i C#?",
+    "options": [
+      "variable int x = 10;",
+      "int x = 10;",
+      "var int x = 10;"
+    ],
+    "answer": 1,
+    "explanation": "I C# definerer man en variabel ved at angive datatype efterfulgt af variabelnavn, fx: int x = 10;"
+  },
+  {
+    "question": "Hvilken af følgende er en korrekt måde at deklarere en metode i C#?",
+    "options": [
+      "void MethodName() {}",
+      "function MethodName() {}",
+      "Method() void {}"
+    ],
+    "answer": 0,
+    "explanation": "Metoder i C# deklareres med returtypen først, efterfulgt af metodenavnet og parenteser, fx: void MethodName() {}"
+  },
+  {
+    "question": "Hvilken nøgleord bruges til at arve fra en anden klasse i C#?",
+    "options": [
+      "inherits",
+      "extends",
+      "base"
+    ],
+    "answer": 1,
+    "explanation": "I C# bruges nøgleordet 'extends' til at arve fra en anden klasse."
+  },
+  {
+    "question": "Hvordan skriver man en kommentar i C#?",
+    "options": [
+      "// Dette er en kommentar",
+      "/* Dette er en kommentar */",
+      "# Dette er en kommentar"
+    ],
+    "answer": 0,
+    "explanation": "I C# skrives enkeltlinjekommentarer med to skråstreger, fx: // Dette er en kommentar. Multilinjekommentarer skrives med /* kommentar */."
+  },
+  {
+    "question": "Hvilken datatype bruges til at gemme tekst i C#?",
+    "options": [
+      "string",
+      "String",
+      "Text"
+    ],
+    "answer": 0,
+    "explanation": "Datatypen 'string' bruges til at gemme tekst i C#. Selvom 'String' også kan bruges, er 'string' den korrekte C#-notation."
+  },
+  {
+    "question": "Hvordan håndterer man undtagelser i C#?",
+    "options": [
+      "try-catch",
+      "try-except",
+      "catch-try"
+    ],
+    "answer": 0,
+    "explanation": "I C# håndteres undtagelser med 'try-catch' blokke."
+  },
+  {
+    "question": "Hvordan erklærer man en konstant i C#?",
+    "options": [
+      "const int x = 10;",
+      "constant int x = 10;",
+      "final int x = 10;"
+    ],
+    "answer": 0,
+    "explanation": "I C# erklæres en konstant med 'const' nøgleordet, fx: const int x = 10;"
+  },
+  {
+    "question": "Hvad er 'namespace' i C#?",
+    "options": [
+      "En container til klasser og andre datatyper",
+      "En variabeltype",
+      "En metode"
+    ],
+    "answer": 0,
+    "explanation": "Et 'namespace' i C# er en container, der organiserer klasser og andre datatyper i en logisk struktur."
+  },
+  {
+    "question": "Hvordan skriver man en for-løkke i C#?",
+    "options": [
+      "for (int i = 0; i < 10; i++) {}",
+      "for i in range(10) {}",
+      "foreach (int i in 10) {}"
+    ],
+    "answer": 0,
+    "explanation": "En for-løkke i C# skrives som: for (int i = 0; i < 10; i++) {}"
+  }
+]

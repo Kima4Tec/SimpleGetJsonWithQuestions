@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Hvad står SQL for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Structured Question Language"
+    ],
+    "answer": 0,
+    "explanation": "SQL står for Structured Query Language og bruges til at kommunikere med og administrere databaser."
+  },
+  {
+    "question": "Hvilken SQL-sætning bruges til at hente data fra en database?",
+    "options": [
+      "FETCH",
+      "GET",
+      "SELECT"
+    ],
+    "answer": 2,
+    "explanation": "SELECT-sætningen bruges til at hente data fra en database."
+  },
+  {
+    "question": "Hvordan tilføjer man en ny række til en tabel i SQL?",
+    "options": [
+      "ADD INTO",
+      "INSERT INTO",
+      "INSERT NEW"
+    ],
+    "answer": 1,
+    "explanation": "INSERT INTO-sætningen bruges til at tilføje en ny række til en tabel."
+  },
+  {
+    "question": "Hvordan opdaterer man data i en tabel i SQL?",
+    "options": [
+      "MODIFY",
+      "UPDATE",
+      "CHANGE"
+    ],
+    "answer": 1,
+    "explanation": "UPDATE-sætningen bruges til at opdatere eksisterende data i en tabel."
+  },
+  {
+    "question": "Hvordan sletter man en tabel i SQL?",
+    "options": [
+      "DROP TABLE",
+      "DELETE TABLE",
+      "REMOVE TABLE"
+    ],
+    "answer": 0,
+    "explanation": "DROP TABLE-sætningen bruges til at slette en tabel fra databasen."
+  },
+  {
+    "question": "Hvad bruges JOIN til i SQL?",
+    "options": [
+      "At kombinere rækker fra to eller flere tabeller baseret på en relateret kolonne",
+      "At slette data fra to eller flere tabeller",
+      "At tilføje nye tabeller til databasen"
+    ],
+    "answer": 0,
+    "explanation": "JOIN-sætningen bruges til at kombinere rækker fra to eller flere tabeller baseret på en relateret kolonne mellem dem."
+  },
+  {
+    "question": "Hvad er primærnøglen i en SQL-tabel?",
+    "options": [
+      "En kolonne der entydigt identificerer hver række i en tabel",
+      "En kolonne der kun kan have én værdi",
+      "En kolonne der refererer til en anden tabels primærnøgle"
+    ],
+    "answer": 0,
+    "explanation": "En primærnøgle er en kolonne eller et sæt kolonner, der entydigt identificerer hver række i en tabel."
+  },
+  {
+    "question": "Hvordan kan man oprette en ny database i SQL?",
+    "options": [
+      "CREATE DATABASE",
+      "NEW DATABASE",
+      "MAKE DATABASE"
+    ],
+    "answer": 0,
+    "explanation": "CREATE DATABASE-sætningen bruges til at oprette en ny database."
+  },
+  {
+    "question": "Hvilken af følgende er ikke en SQL-aggregeringsfunktion?",
+    "options": [
+      "SUM",
+      "AVG",
+      "JOIN"
+    ],
+    "answer": 2,
+    "explanation": "JOIN er ikke en aggregeringsfunktion, det er en metode til at kombinere rækker fra to eller flere tabeller. SUM og AVG er aggregeringsfunktioner."
+  },
+  {
+    "question": "Hvad bruges WHERE-klausulen til i SQL?",
+    "options": [
+      "At filtrere poster i en SELECT-sætning",
+      "At gruppere resultater",
+      "At sortere resultater"
+    ],
+    "answer": 0,
+    "explanation": "WHERE-klausulen bruges til at filtrere poster, så kun de poster, der opfylder en specificeret betingelse, medtages i resultatet."
+  }
+]
