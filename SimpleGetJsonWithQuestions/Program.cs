@@ -35,19 +35,19 @@ namespace SimpleGetJsonWithQuestions
             {
                 category = "Vand og Klima";
 
-                //Path to json file. Mine is in the folder MyJsonFile. Chenged property of json file from copy never to copy always 
+                //Path to json file. Mine is in the folder MyJsonFiles. Chenged property of json file from copy never to copy always 
                 filepath = "MyJsonFiles/QuestionAndAnswersWater.json";
             }
             else if (userInput == "b")
             {
                 category = "MS SQL";
-                //Path to json file. Mine is in the folder MyJsonFile. Chenged property of json file from copy never to copy always 
+                //Path to json file. Mine is in the folder MyJsonFiles. Chenged property of json file from copy never to copy always 
                 filepath = "MyJsonFiles/QuestionAndAnswersSQL.json";
             }
             else if (userInput == "c")
             {
                 category = "C#";
-                //Path to json file. Mine is in the folder MyJsonFile. Chenged property of json file from copy never to copy always 
+                //Path to json file. Mine is in the folder MyJsonFiles. Chenged property of json file from copy never to copy always 
                 filepath = "MyJsonFiles/QuestionAndAnswersCSharp.json"; 
             }
             else
